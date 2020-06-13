@@ -1,2 +1,3 @@
-# digitags
-Photo filename, tags/EXIF, and search management
+# Photo Manager
+
+> Photo names, tags/EXIF, and search management
