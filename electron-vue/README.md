@@ -8,7 +8,7 @@
 > * run e2e (misconfigured/failed)
 
 
-<a name="contents">
+<a name="contents"><br/>
 ## Contents
 
 * [Build Setup](#build-setup)
@@ -161,5 +161,7 @@ Based on an [Auth0 blog](https://auth0.com/blog/electron-tutorial-building-moder
   - [Vuetify](https://vuetifyjs.com/en/) | [source](https://github.com/vuetifyjs/vuetify) - Material Component Framework for Vue
   - [Vuesion](https://github.com/vuesion/vuesion)
 
+
+<br/>
 
 &raquo; Back to <a href="/">Home</a> | <a href="#contents">Contents</a> &laquo;

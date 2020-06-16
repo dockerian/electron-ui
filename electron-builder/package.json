@@ -1,7 +1,9 @@
 {
   "name": "digitags",
   "version": "0.1.0",
-  "private": true,
+  "author": "Jason Zhu <jason.zhuyx@gmail.com>",
+  "description": "Electron-vue app example with tests.",
+  "license": "GNU GPL V3.0",
   "scripts": {
     "build": "vue-cli-service electron:build",
     "serve": "vue-cli-service electron:serve",

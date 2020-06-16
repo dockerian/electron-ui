@@ -9,6 +9,7 @@
     "build:clean": "cross-env BUILD_TARGET=clean node .electron-vue/build.js",
     "build:dir": "node .electron-vue/build.js && electron-builder --dir",
     "build:web": "cross-env BUILD_TARGET=web node .electron-vue/build.js",
+    "serve": "npm run dev",
     "dev": "node .electron-vue/dev-runner.js",
     "e2e": "npm run test:e2e",
     "e2e:mocha": "npm run pack && mocha tests/e2e-mocha",
