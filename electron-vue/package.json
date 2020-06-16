@@ -13,7 +13,7 @@
     "e2e": "npm run test:e2e",
     "e2e:mocha": "npm run pack && mocha tests/e2e-mocha",
     "electron": "npm run prod",
-    "lint": "vue-cli-service lint",
+    "lint": "vue-cli-service lint --fix",
     "lint:fix": "eslint --ext .js,.vue -f ./node_modules/eslint-friendly-formatter --fix src",
     "pack": "npm run pack:main && npm run pack:renderer",
     "pack:main": "cross-env NODE_ENV=production webpack --progress --colors --config .electron-vue/webpack.main.config.js",
@@ -73,6 +73,7 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-e2e-cypress": "^4.4.6",
+    "@vue/cli-plugin-eslint": "^4.4.6",
     "@vue/cli-plugin-unit-jest": "^4.4.6",
     "@vue/test-utils": "^1.0.3",
     "ajv": "^6.5.0",

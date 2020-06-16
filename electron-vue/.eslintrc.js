@@ -6,9 +6,13 @@ module.exports = {
   },
   env: {
     browser: true,
+    jest: true,
     node: true
   },
-  extends: 'standard',
+  extends: [
+    'plugin:cypress/recommended',
+    'standard'
+  ],
   globals: {
     __static: true
   },

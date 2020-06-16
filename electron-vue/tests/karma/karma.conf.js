@@ -37,7 +37,7 @@ module.exports = config => {
     coverageReporter: {
       dir: '../../coverage',
       reporters: [
-        { type: "html", subdir: "html" },
+        { type: 'html', subdir: 'html' },
         { type: 'lcov', subdir: '.' },
         { type: 'text-summary' }
       ]

@@ -1,0 +1,33 @@
+{
+  "appId": "com.dockerian.digitags",
+  "artifactName": "${productName}-${version}.${ext}",
+  "productName": "digitags",
+  "directories": {
+    "buildResources": "build",
+    "output": "dist"
+  },
+  "electronDist": "dist",
+  "files": [
+    "!.editorconfig",
+    "!**/._*",
+    "!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+    "!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+    "!**/{appveyor.yml,.travis.yml,circle.yml}",
+    "!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}",
+    "!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+    "!**/node_modules/.bin",
+    "!**/node_modules/*.d.ts",
+    "!**/node_modules/*/{CHANGELOG.md,README.md,README,readme.md,readme}",
+    "!**/node_modules/*/{test,__tests__,tests,powered-test,example,examples}",
+    "**/*"
+  ],
+  "linux": {
+    "icon": "build/icons/icon.icns"
+  },
+  "mac": {
+    "icon": "build/icons/icon.icns"
+  },
+  "win": {
+    "icon": "build/icons/icon.icns"
+  },
+}
